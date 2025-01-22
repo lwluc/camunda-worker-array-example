@@ -17,6 +17,6 @@ class SampleArrayHandler implements ExternalTaskHandler {
     @Override
     public void execute(ExternalTask externalTask, ExternalTaskService externalTaskService) {
         ArrayList array = new ArrayList<>(List.of("1", "2"));
-        externalTaskService.complete(externalTask, Map.of("sample-array", array));
+        externalTaskService.complete(externalTask, Map.of("sample_array", array));
     }
 }
