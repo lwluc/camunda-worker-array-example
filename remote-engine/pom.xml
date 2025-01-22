@@ -19,17 +19,9 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>3.3.3</version>
+        <version>3.3.7</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>7.22.0</version>
-        <scope>import</scope>
-        <type>pom</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -38,11 +30,13 @@
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
       <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+      <version>7.22.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
       <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
+      <version>7.22.0</version>
     </dependency>
 
     <dependency>
@@ -59,10 +53,12 @@
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-plugin-spin</artifactId>
+      <version>7.22.0</version>
     </dependency>
     <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-dataformat-all</artifactId>
+      <version>7.22.0</version>
     </dependency>
 
   </dependencies>
